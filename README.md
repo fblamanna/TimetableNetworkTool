@@ -50,7 +50,7 @@ User can adjust the following parameters to generate the random timetable data:
 
 ### Execution
 Run the script with:
-`python Timetable_Generator.py`
+`python TimetableGenerator.py`
 
 ## From Timetables to Networks
 *Under Development...*
