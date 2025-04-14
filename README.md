@@ -1,5 +1,6 @@
 # Timetable Network Tool
-The documentation refers to the pre-print paper published on [ArXiv](http://xxxxxxx/). The documentation is organized as follows:
+The documentation refers to the pre-print paper published on [ArXiv](https://arxiv.org/) - *Unveiling connectivity patterns of railway timetables through complex network theory and Infomap clustering*.
+The documentation is organized as follows:
 
 - **Random Train Timetable Generator**: `TimetableGenerator.py` script returns a .csv file with a Synthetic Timetable with train paths, stations, departure and arrival times. The resulting file is a potential input of the following scripts;
 
