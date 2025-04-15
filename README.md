@@ -90,8 +90,8 @@ The script supports three network spaces:
 
 4. **Output Files:**  
    For each of the three spaces, the script generates two files in Pajek `.net` format:
-   - A file with DSN weights (e.g., `Scenario_DSN_SpaceChanges.net`).
-   - A file with DTN weights (e.g., `Scenario_DTN_SpaceChanges.net`).
+   - A file with DSN weights (e.g., `DSN_SpaceChanges.net`).
+   - A file with DTN weights (e.g., `DTN_SpaceChanges.net`).
 
    The Pajek files contain a header with the vertex list and an arc section where each line specifies:
    ```
