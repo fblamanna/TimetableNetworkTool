@@ -181,9 +181,9 @@ def main():
     
     # Define spaces: tuple = (space_type, DSN output filename, DTN output filename)
     spaces = {
-        "Space of Stations": ("stations", "RAND_DSN_SpaceStations_WG.net", "RAND_DTN_SpaceStations_WG.net"),
-        "Space of Stops": ("stops", "RAND_DSN_SpaceStops_WG.net", "RAND_DTN_SpaceStops_WG.net"),
-        "Space of Changes": ("changes", "RAND_DSN_SpaceChanges_WG.net", "RAND_DTN_SpaceChanges_WG.net")
+        "Space of Stations": ("stations", "DSN_SpaceStations.net", "DTN_SpaceStations.net"),
+        "Space of Stops": ("stops", "DSN_SpaceStops.net", "DTN_SpaceStops.net"),
+        "Space of Changes": ("changes", "DSN_SpaceChanges.net", "DTN_SpaceChanges.net")
     }
     
     for space_name, (space_type, dsn_filename, dtn_filename) in spaces.items():
